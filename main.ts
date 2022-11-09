@@ -1,18 +1,22 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("" + (text_list.length))
+    let length = 0
+    for (let index = 0; index <= length - 1; index++) {
+        let list: number[] = []
+        basic.showString("" + (list[index]))
+    }
 })
 input.onButtonPressed(Button.AB, function () {
     for (let index = 0; index < 5; index++) {
-        test = text_list.removeAt(randint(0, 5))
+        test = _6_Super_Villains.removeAt(randint(0, 5))
         basic.showString("" + (test))
     }
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("" + (text_list.removeAt(randint(0, 5))))
+    basic.showString("" + (_6_Super_Villains.removeAt(randint(0, 4))))
 })
 let test = ""
-let text_list: string[] = []
-text_list = [
+let _6_Super_Villains: string[] = []
+_6_Super_Villains = [
 "Thanos",
 "Joker",
 "Vulture",
