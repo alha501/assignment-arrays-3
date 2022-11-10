@@ -1,8 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    let length = 0
-    for (let index = 0; index <= length - 1; index++) {
-        let list: number[] = []
-        basic.showString("" + (list[index]))
+    for (let index = 0; index <= 5; index++) {
+        basic.showString("" + (_6_Super_Villains[index]))
     }
 })
 input.onButtonPressed(Button.AB, function () {
